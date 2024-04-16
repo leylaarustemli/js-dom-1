@@ -1,0 +1,74 @@
+body{
+    background:  linear-gradient(
+        110deg,
+        rgba(120, 229, 215, 1) 0%,
+        rgba(156, 177, 229, 1) 96%
+      );  
+}
+.container{
+    height: 100vh;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+.tittle{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+}
+.tittle i{
+    font-size: 38px;
+   font-weight: bold;
+   
+}
+.add-inpt input{
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+ width: 250px;
+ font-size: 15px;
+}
+.add-inpt{
+    gap: 10px;
+    display: flex;
+}
+.add-inpt button{
+    border-radius: 5px;
+    background-color: rgb(197, 96, 243);
+    padding: 10px;
+    border: 1px solid rgb(197, 96, 243) ;
+    font-size: 20px;
+}
+.three-ul ul li{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    width:  320px;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+}
+.three-ul ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.three-ul button{
+    background-color: red;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.three-ul p{
+    font-size: 20px;
+    color:rgba(4, 4, 4, 0.537) ;
+}
+.three-ul ul li input{
+    width: 30px;
+}
